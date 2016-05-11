@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  	
+  	.section {
+
+        .inner {
+            width: 100%;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        &.services {
+
+            .content {
+                padding-top: 0;
+            }
+
+            .service {
+                padding-top: 50px;
+                text-align: center;
+            }
+        }
+
+        &.team {
+
+            .content {
+                padding-top: 0;
+            }
+
+            .member {
+                padding-top: 50px;
+            }
+        }
+    }
+
+    .copyright {
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+@media (min-width: 768px) {
+  	
+  	.masthead-brand {
+    	float: left;
+  	}
+  	.masthead-nav {
+    	float: right;
+  	}
+
+  	/* Pull out the header and footer */
+  	.masthead {
+  	  	position: fixed;
+  	  	top: 0;
+  	}
+  	.mastfoot {
+  	  	position: fixed;
+  	  	bottom: 0;
+  	}
+  	/* Start the vertical centering */
+  	.cover-wrapper-inner {
+  	  	vertical-align: middle !important;
+  	}
+  	/* Handle the widths */
+  	.masthead,
+  	.mastfoot,
+  	.cover-container {
+  	  	width: 100%; /* Must be percentage or pixels for horizontal alignment */
+
+        .inner {
+            width: 100%;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+  	}
+
+    .section {
+
+        .inner {
+            width: 100%;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+
+    .copyright {
+        img {
+            width: 80%;
+        }
+    }
+}
